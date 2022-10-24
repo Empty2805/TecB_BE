@@ -1,8 +1,8 @@
-name: dockercompose4534784175267936977
+name: dockercompose11246452912829789276
 services:
   wanosoft_tecb:
     build:
-      context: D:\TecB\tecb_be\TecB_BE
+      context: D:\NCB\ncb-be\ncb_be
       dockerfile: WanoSoft_TecB\Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -32,4 +32,4 @@ services:
         create_host_path: true
 networks:
   default:
-    name: dockercompose4534784175267936977_default
+    name: dockercompose11246452912829789276_default

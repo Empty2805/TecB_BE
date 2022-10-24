@@ -15,8 +15,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_wanosoft_tecb$
     volumes:
-      - D:\TecB\tecb_be\TecB_BE\WanoSoft_TecB:C:\app
-      - D:\TecB\tecb_be\TecB_BE:C:\src
+      - D:\NCB\ncb-be\ncb_be\WanoSoft_TecB:C:\app
+      - D:\NCB\ncb-be\ncb_be:C:\src
       - C:\Users\Dell\onecoremsvsmon:C:\remote_debugger:ro
 #$nuget_volume_mapping_wanosoft_tecb$
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro

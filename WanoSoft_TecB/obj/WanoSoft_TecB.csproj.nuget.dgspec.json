@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TecB\\tecb_be\\TecB_BE\\WanoSoft_TecB\\WanoSoft_TecB.csproj": {}
+    "D:\\NCB\\ncb-be\\ncb_be\\WanoSoft_TecB\\WanoSoft_TecB.csproj": {}
   },
   "projects": {
-    "D:\\TecB\\tecb_be\\TecB_BE\\WanoSoft_TecB\\WanoSoft_TecB.csproj": {
+    "D:\\NCB\\ncb-be\\ncb_be\\WanoSoft_TecB\\WanoSoft_TecB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TecB\\tecb_be\\TecB_BE\\WanoSoft_TecB\\WanoSoft_TecB.csproj",
+        "projectUniqueName": "D:\\NCB\\ncb-be\\ncb_be\\WanoSoft_TecB\\WanoSoft_TecB.csproj",
         "projectName": "WanoSoft_TecB",
-        "projectPath": "D:\\TecB\\tecb_be\\TecB_BE\\WanoSoft_TecB\\WanoSoft_TecB.csproj",
+        "projectPath": "D:\\NCB\\ncb-be\\ncb_be\\WanoSoft_TecB\\WanoSoft_TecB.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\TecB\\tecb_be\\TecB_BE\\WanoSoft_TecB\\obj\\",
+        "outputPath": "D:\\NCB\\ncb-be\\ncb_be\\WanoSoft_TecB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,11 +44,17 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.30, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.30, )"
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
